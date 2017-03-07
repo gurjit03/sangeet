@@ -1,0 +1,7 @@
+{
+	"raag" : "kaliyaan",
+	"taal" : "Jhap Taal",
+	"notation" : ["Pa", "Pa", "Re", "Re", "Re", "Ga", "Ga0.49", "Re0.49", "Ma", "Ma", "Ga", "Ga", "Ga", ".Ni0.50", "Re0.50", "Ga0.52", "Ma0.48", "Pa", "Re", "Re", "Sa", "Sa", "Sa", "Pa0.49", "Ma0.50", "Ga", "Dha0.52", "Ma0.48", "Dha", "Dha", "Ni", "Ni", "Ni", "Ni", "Ni", "Ga", "Ga", "Ni", "Ni", "Ni0.51", "Dha0.49", "Ni", "Dha", "Pa", "Pa", "Pa", "Sa.", "Sa.", "Ni", "Ni", "Dha", "Pa", "Ma0.46", "Dha0.54", "Pa0.49", "Ma0.51", "Ga0.52", "Re0.48", "Sa"],
+	"language" : "english",
+	"tempo" : 120
+}

@@ -1,0 +1,14 @@
+<template name="classicalInterface">
+	<div class="main_content">
+		<div id="notation" class="notation">
+			<h1 class="musicHead name"> Raag {{ raagName }}  : {{ songName }}</h1>
+			<div id="composition" class="composition">
+				<!-- Composition will be generated automatically  -->
+			</div> 
+		</div>
+		<label for="tempo" class="tempoLabel">Give the tempo of the composition : </label>
+		<input type="number" class="tempo" name="tempo" min="50" max="200">
+		<br />
+		<input class="saveComposition niceButton" type="button" value="save composition" >	
+	</div>
+</template>

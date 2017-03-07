@@ -1,0 +1,23 @@
+.wrap {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh; }
+  .wrap:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.navigation {
+  width: 18.36735%;
+  float: left;
+  margin-right: 2.04082%; }
+
+.musicInterface {
+  min-height: 100%;
+  height: auto;
+  width: 81.59184%;
+  float: left;
+  margin-right: 2.04082%; }
+
+/*# sourceMappingURL=grid.css.map */

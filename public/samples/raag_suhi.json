@@ -1,0 +1,7 @@
+{
+	"raag" : "suhi",
+	"taal" : "Tin Taal",
+	"notation" : ["Sa0.53", "Re0.47", "Ga", "Ga", "ma", "Pa", "Pa", "Ni0.53", "Dha0.47", "Ni", "Sa.", "Sa.", "ni", "Dha", "Pa", "Pa", "ma", "Ga", "Sa", "Sa0.52", "Ga0.48", "Re", "Ga", "ma", "Ga", "Pa", "Pa", "Pa", "ni", "Dha", "Pa", "Pa0.52", "ni0.48", "Dha0.52", "Pa0.48", "ma0.52", "Ga0.48", "Re0.52", "Sa0.47", "ma", "ma", "Pa", "Pa", "Ni", "Ni", "Sa.", "Sa.", "Ga.0.52", "Re.0.48", "Sa.0.52", "Re.0.48", "Ga.", "Re.", "Sa.", "Ni", "Sa.", "Sa.", "Sa.", "Sa.", "Sa.", "Sa.0.55", "Re.0.45", "ni", "ni0.52", "Dha0.48", "Pa", "Pa", "Re", "Ga", "ma0.52", "Dha0.48", "Pa0.52", "Dha0.48", "ma", "Ga", "Pa", "Pa", "Sa.", "Sa.", "Sa.", "Sa.0.53", "Re.0.47", "ni", "ni0.50", "Dha0.50", "Pa", "Pa", "Pa", "ni", "Dha", "Pa", "Pa0.50", "ni0.48", "Dha0.48", "Pa0.52", "ma0.50", "Ga0.50", "Re0.53", "Sa0.46"],
+	"language" : "english",
+	"tempo" : 120
+}

@@ -1,0 +1,20 @@
+@import "susy";
+
+$susy: (
+  columns: 10
+);
+
+.wrap {
+  @include container();
+  height: 100vh; // This forces .wrap to 100% of your viewport height
+}
+
+.navigation {
+ @include span(2 of 10);
+}
+
+.musicInterface {
+  @include span(8 of 10);
+}
+
+

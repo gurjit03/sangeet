@@ -1,0 +1,11 @@
+<template name="music">
+	{{ getthis }}	
+	{{#if classical}}
+	<a href="classicSong/{{song._id}}">{{song.name}}</a>
+	{{ else }}
+	<a href="song/{{song._id}}">{{song.name}}</a>
+	{{/if}}
+
+	<a href="" class="edit"><img src="edit-icon-o.png" alt="Edit icon"></a>
+	<a href="" class="delete"><img src="delete-icon-o.png" alt="delele Icon"></a>
+</template>

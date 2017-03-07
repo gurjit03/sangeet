@@ -1,0 +1,42 @@
+<template name="chathome">
+	<div class="wrap_container">
+		{{#if currentUser}}
+		<div class="chatNavWrapper">
+			<a class="chatNav" href="{{pathFor route='createChatRoom'}}">Create A chat Room</a> |
+			<a class="chatNav rightFLoated" href="{{pathFor route='chatRooms'}}">List Of all the Chat Rooms</a>
+		</div>	
+		{{/if}}
+		{{ > chat }}
+	</div>
+</template>
+
+<!-- 
+***                                             *****
+***		Note :- 	CHAT TEMPLATE IS BELOW       ******   
+***												 *******			
+ -->
+<template name="chat">
+		<form name="chat_form" class="chat">
+			<div id="topZero" class="box topZero">
+				<label>
+					<span> Your Message : </span>
+					<textarea name="chat_area" class="chat_area message" cols="30" rows="5"></textarea>
+				</label>
+				<label>
+					<input type="submit" value="send message" class="send button">		
+				</label>
+			</div>
+		</form>
+		<div class="chat_messages">
+			<!-- <h1>Group Messages</h1> -->
+			{{#if currentUser}} 
+				{{#each messages}}
+					{{ > message }}
+				{{else}}
+					Collection doesn't seems to work OR probably you don't have any messages.	
+				{{/each}}
+			{{else}}
+				Login to see the messages...
+			{{/if}}
+		</div>
+</template> 	

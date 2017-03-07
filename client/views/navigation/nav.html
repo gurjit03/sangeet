@@ -1,0 +1,71 @@
+<template name="nav">
+	<div class="container">
+<!-- 	
+<div class="nav_home">
+	<a href="">
+ 		<span class="home-icon">
+ 			<i class="fa fa-home"></i>
+ 		</span>
+	 </a>
+ </div> -->
+	 <ul class="ca-menu">
+	    <li>
+	        <a href="/">
+	            <span class="ca-icon adjusted">
+	            	<i class="fa fa-home"></i>
+	            </span>
+	        </a>
+	    </li>
+	    <li>
+	        <a href="{{pathFor route='classical'}}">
+	            <span class="ca-icon">
+	            	<i class="fa fa-music"></i>
+	            </span>
+	            <div class="ca-content">
+	                <h2 class="ca-main">Classical Interface</h2>
+	                <h3 class="ca-sub">Create Some great music</h3>
+	            </div>
+	        </a>
+	    </li>
+	    <li>
+	        <a href="{{pathFor route='load'}}">
+	            <span class="ca-icon"><i class="fa fa-book"></i></span>
+	            <div class="ca-content">
+	                <h2 class="ca-main">Load Compositions</h2>
+	                <h3 class="ca-sub">Get the Music List</h3>
+	            </div>
+	        </a>
+	    </li>
+	    <li>
+	        <a href="{{pathFor route='chathome'}}">
+	            <span class="ca-icon"><i class="fa fa-comment"></i></span>
+	            <div class="ca-content">
+	                <h2 class="ca-main">Talk to Others</h2>
+	                <h3 class="ca-sub">Chat with ur fellows</h3>
+	            </div>
+	        </a>
+	    </li>
+	    <li>
+	        <a href="{{pathFor route='contact_us'}}">
+	            <span class="ca-icon"><i class="fa fa-envelope"></i></span>
+	            <div class="ca-content">
+	                <h2 class="ca-main">Contact us</h2>
+	                <h3 class="ca-sub">Send mail about anything !</h3>
+	            </div>
+	        </a>
+	    </li>
+	    <li>
+	        <a href="{{pathFor route='help'}}">
+	            <span class="ca-icon"><i class="fa fa-question"></i></span>
+	            <div class="ca-content">
+	                <h2 class="ca-main">Need Help ?</h2>
+	                <h3 class="ca-sub">Need help about Interface</h3>
+	            </div>
+	        </a>
+	    </li>
+	</ul>
+		</div><!-- /container -->
+		<script>
+			new gnMenu( document.getElementById( 'gn-menu' ) );
+		</script>
+</template>

@@ -1,0 +1,43 @@
+div.box {
+	top : 0;
+}
+div#topZero {
+	top : 0;
+}
+.wrap_container {
+	margin : 10px;
+}
+
+.chatNav {
+	color : #bbb;
+	display: inline-block;
+	margin-left : 20px;
+	font-size: 1em;
+}
+
+.chatNavWrapper {
+	width : 77%;
+	text-align: right;
+} 
+
+.rightFLoated {
+	margin-left : 0;
+	margin-right : 10px;
+}
+.chat_messages {
+	width : 80%;
+	margin : 10px auto;
+}
+
+.chat_messages h1 {
+	text-align: center;
+	margin : 10px;
+	font-size: 21px;
+	background-color: #333;
+	color : #FFF5CC;
+	padding : 10px;
+}
+
+.button1 {
+	
+}

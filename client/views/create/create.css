@@ -1,0 +1,27 @@
+.centered {
+	position : relative;
+	top : 10px;
+	left : 10px;
+}
+
+#nameForm {
+	position : static;
+	top : 0;
+	margin : 20px 40px auto 50px;
+}
+
+.noteLabel , .timeLabel{
+	color : #bbb;
+	position : absolute;
+	font-size: 14px;
+	left : 40%;
+}
+
+.noteLabel {
+	top : 28px;
+}
+
+.timeLabel {
+	left : 35%;
+	top : 93.5%;
+}

@@ -1,0 +1,15 @@
+<template name="message">
+	<p class="userMessage">	
+		<span class="date"> {{formatDate timestamp}} </span> 
+		<a class="userProfile" 
+			href="{{pathFor 'userProfile' username=username}}">
+			({{ username }}) : 
+		</a> 
+		
+		{{text}}
+
+		{{#if canDelete}}
+			<img src="delete81.png" class="delete-msg">
+		{{/if}}		
+	</p>
+</template>

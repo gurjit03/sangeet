@@ -1,0 +1,401 @@
+html,body,div,p,h1,h2,h3,h4,h5,h6,a,li,ul {
+	padding : 0;
+	margin : 0;
+	font-family: 'Ubuntu' , Sans-serif;
+}
+
+a {
+	text-decoration : none;
+}
+
+/* load css data......... */
+a img {
+	padding-left: 5px;
+	width : 15px;
+	height : 15px;
+}
+.delete-msg {
+	padding-left: 5px;
+	width : 15px;
+	height : 15px;
+}
+html , body {
+	min-width: 100%;
+	width : auto;
+}
+
+
+
+/* 
+	 Background Colors of the varius notes :-
+   */
+
+.violet {
+	background: rgba(177,36,237,1);
+}
+
+.blue_violet {
+	background: rgba(138,43,226,0.9);
+}
+
+.blue {
+	background: rgba(72,61,139,1);
+}
+
+.green {
+background: rgba(0,201,87,1);
+}
+
+.blue_green {
+background: rgba(67,110,238,1);
+}
+.yellow_green {
+	background: rgba(174,255,47,1);
+}
+.yellow {
+	background: rgba(255,255,0,1);
+}
+.yellow_orange {
+	background: rgba(230,179,18,1);
+}
+.orange {
+	background: rgba(255,165,0,1);
+}
+.red_orange {
+	background: rgba(255,127,0,1);
+}
+.red {
+background: rgba(238,0,0,0.9);
+}
+.red_violet {
+background: rgba(255,62,150,1);
+}
+
+
+
+/* Main common music styling is being done here.*/
+.all {
+	min-width : 100%;
+	width : auto;
+ }
+.drag {
+	border : 1px dashed #bbb;
+	width : 50px;
+	height: 20px;
+	margin : 10px auto;
+}
+.drop {
+	border : 2px solid #bbb;
+	position : relative;
+	width : 500px;
+	height: 300px;
+	/* margin : 0 auto */
+}
+.droppedItem {
+	height : 30px;
+	position : absolute;
+	color : transparent;
+	border-radius : 100px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+		
+}
+.swars{
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0;
+	width : 50px;
+	float : left;
+	color: #bbb;
+	line-height: 40px;
+}
+.input {
+	border : 1px solid #bbb;
+	min-width: 600px;
+	width : auto;
+	color : #bbb;
+	min-height: 30px; 
+	padding-top : 6px;
+	padding-right: 0;
+	padding-bottom: 3px;
+	position: relative;
+}
+.clear {
+	clear : both;
+}
+.ruler {
+	position : relative;
+	padding-bottom: 10px;
+	left : 50px;
+	display : inline-block;
+	border : 1px solid #bbb;
+	width : auto;
+	/* overflow: scroll; */
+	height: 50px; 
+}
+.time {
+	color : #bbb;
+	text-align: right;
+	float : left;
+	/* border-right : 1px dashed gray */
+
+	/*
+		Make the div's text unselectable
+	*/
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.octave_button {
+	width : 0;
+	position: absolute;
+	border : 5px solid transparent;
+	right : 8px;
+}
+
+.top {
+	border-bottom: 5px solid rgba(39,44,44,1);
+	top : 0;
+}
+
+.bottom {
+	border-top : 5px solid rgba(39,44,44,1);
+	bottom : 0;
+}
+
+.input_swar {
+	color : rgba(0,0,0,0.9);
+}
+
+
+/* Notation writer */
+.main_content {
+	margin :2% 5%;	
+}
+
+.composition div.col {
+    text-align: center;
+    float: left;
+}
+
+.composition div.swar {
+    margin-top: 10px;
+    height: 5vh;
+    line-height: 5vh;
+    width: 100%;
+    vertical-align: baseline; 
+}
+
+.musicInterface {
+	background-color: rgba(39,44,44,1);	
+	/*background-color: rgba(255,255,255,.2);*/
+	margin-right : 0;
+}
+
+.navigation {
+	margin-right : 0;
+}
+
+#notation {
+	min-width : 100%;
+	width : auto;
+}
+ 
+/*
+	CLassical JS FIle CSS
+
+*/
+
+form,input,select,textarea{
+	margin:0; 
+	padding:0; 
+	color:#fff;
+}
+
+div.box{
+	margin:0 auto;
+	width:500px;
+	background:#222;
+	position:relative;
+	top:50px;
+}
+
+div.box h1{ 
+	text-align: center;
+	/*color:#FFF5CC;
+	*/
+	font-size:18px;
+	padding:5px 0 5px 5px;
+	border-bottom:1px solid #161712;
+	border-top:1px solid #161712; 
+}
+
+div.box label{
+	width:100%;
+	display: block;
+	background:#272C2C;
+	padding:10px 0 10px 0;
+}
+div.box label span{
+	display: block;
+	color:#bbb;
+	font-size: 15px;
+	float:left;
+	width:120px;
+	text-align:right;
+	padding:10px 20px 0 0;
+}
+
+div.box .input_text{
+	padding:10px 10px;
+	width:200px;
+	background:#262626;
+	border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left:1px double #333;
+	border-right:1px double #333;
+}
+
+div.box .message{
+	padding:7px 7px;
+	width:340px;
+	background:#262626;
+	border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left:1px double #333;
+	border-right:1px double #333;
+	overflow:hidden;
+	padding-bottom: 120px;
+}
+
+div.box .button {
+	padding:10px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+/* div.box .button
+{
+	margin:0 0 10px 0;
+	padding:4px 7px;
+	background:#CC0000;
+	border:0px;
+	position: relative;
+	top:10px;
+	left:0px;
+	width:120px;
+	border-bottom: 1px double #660000;
+	border-top: 1px double #660000;
+	border-left:1px double #FF0033;
+	border-right:1px double #FF0033;
+} */
+
+select {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+
+/*
+ EXTRA Classes used frequently , !!!!
+*/
+
+.clear {
+	clear : both;
+}
+
+.num {
+	color : #FFF5CC;
+}
+
+.shiftRight {
+	margin-left: 10px;
+}
+
+.niceButton {
+	padding:5px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+.tempoLabel {
+	color : #FFF5CC;
+	width:100%;
+	background:#272C2C;
+	padding:10px 0 10px 0;
+}
+
+.tempo {
+	padding:10px 10px;
+	width:50px;
+	background:#262626;
+	border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left:1px double #333;
+	border-right:1px double #333;	
+}
+
+#nameForm h1 {
+	color : #FFF5CC;
+}
+
+.bottomMargin { 
+	margin-bottom: 10px;
+}

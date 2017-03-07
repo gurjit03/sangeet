@@ -1,0 +1,26 @@
+<template name="main">
+	{{ > loginButtons }}
+	
+	{{ #if complete }}
+	<div class="wrap">
+	<div class="navigation">
+     	{{ > nav }}
+	</div>
+	<div class="musicInterface">
+     	{{ > yield }}
+	</div>
+	<!-- <div class="pure-g">
+	     <div class="pure-u-1-6 navigation">
+	      	<h1> Sangeet </h1>
+	     	{{ > nav }}
+	     </div>	
+	     <div class="pure-u-5-6 musicInterface">
+	     <div class="musicInterface">
+	     	{{ > yield }}
+	     </div>
+	 </div> --> 
+	</div>   		
+	{{ else }}
+		Loading Files..... Plz Wait for while & don't switch you will surely miss a treat.	
+	{{/if}}		
+</template>

@@ -1,0 +1,38 @@
+.simpleMusic {
+	float : left;
+	margin : 50px 10px 0 150px;
+	color : #bbb;
+}
+
+.simpleMusic > p , .classicalMusic > p {
+	text-align: center;
+	color : #FFF5CC;
+	font-size: 18px;
+	text-transform: none;
+	padding:5px 0 5px 5px;
+	border-bottom:1px solid #bbb;
+	border-top:1px solid #bbb;
+	margin-bottom : 10px;
+}
+
+.classicalMusic {
+	float : right;
+	margin : 50px 150px 0 10px;
+	color : #bbb;
+}
+
+.musicList li{
+	margin : 5px;
+}
+
+.musicList li a {
+	color : #bbb;
+}
+
+.musicHead {
+	background-color: #333;
+	color : #FFF5CC;
+	font-size: 20px;
+	padding : 10px;
+	text-align: center;
+}

@@ -1,0 +1,13 @@
+.userMessage {
+	font-size: 14px;
+	color : #bbb;
+	position : relative;
+	left : 100px;
+}
+.date {
+	font-family: serif;
+}
+
+.userProfile {
+	color : #FFF5CC;
+}

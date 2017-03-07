@@ -1,0 +1,25 @@
+<template name="chatRooms">
+	<div class="wrap_container">
+		<h1 class="musicHead">Current Chat Room List</h1>
+		<ol class="chatRoomList">
+		{{#each this}}
+			<li>
+			<a href="{{pathFor route='chatRoom' id=_id}}">{{name}}</a>
+			</li>
+		{{else}}
+			No Chat Rooms to show !
+		{{/each}}
+		</ol>
+	</div>
+</template>
+
+<!-- 
+	CHat ROOM template shown below !
+ -->
+
+<template name="chatRoom">
+	<div class="wrap_container">
+		<h1 class="musicHead"> Chat Room : {{name}} </h1>
+		{{ > chat }}
+	</div>
+</template>

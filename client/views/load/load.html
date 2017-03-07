@@ -1,0 +1,25 @@
+<template name="load">
+	<div class="wrap_container">
+		<h1 class="musicHead">Music Compositions</h1>
+		<div class="simpleMusic">
+			<p> Music </p>
+			<ol class="musicList">
+				{{#each Music }}
+					<li>{{ > music song=this }}</li>
+				{{else}}
+					<p> Sorry no music under this list ...</p>
+				{{ /each }}
+			</ol>		
+		</div>
+		<div class="classicalMusic">
+			<p> Classical Music </p>	
+			<ol class="musicList">
+				{{#each classicalMusic }}
+					<li> {{ > music song=this classical=true }} </li>
+				{{else}}
+					<p> Sorry no music under this list ...</p>
+				{{/each}}	
+			</ol>	
+		</div>
+	</div>
+</template>

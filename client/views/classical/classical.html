@@ -1,0 +1,60 @@
+<template name="classical">
+	<form name="taal" class="taal">
+        <div class="box">
+            <h1>Enter the details for Classical Interface</h1>
+            <label>
+               <span>Select The Taal</span>
+	            <select name="taalSelection" class="TaalSelection">
+					<option disabled="true">Select Taals--</option>
+					<option value="tin">Tin Taal</option>
+					<option value="dadra">Dadra Taal</option>
+					<option value="kehrwa">Kehrwa Taal</option>
+					<option value="Ek">Ek Taal</option>
+					<option value="Jhap">Jhap Taal</option>
+				</select>
+			</label>
+            
+             <label>
+               <span>Name of Raag*</span>
+               	<input type="text" name="raag" class="input_text raagname" placeholder="Name Of Raag"/>
+            </label>
+             
+             <label>
+                <span>Name of Song*</span>
+                <input type="text" name="songname" class="input_text songname" placeholder="Name of Song"/>
+            </label>
+
+            <label>
+            	<input type="submit" class="button" value="submit Entries">
+            </label>
+        </div>
+    </form>
+
+	<!-- <form name="taal" class="taal">
+		<ul id="contactform">
+		<li>
+			<label for="taalSelection">From the option select the appropriate taal </label>
+	
+			
+		</li>
+	
+		<li>
+			<label for="raag">Type the name of Raag you will use : </label>
+			<span class="fieldbox">
+				<input name="raag" class="raagname" type="text" />
+			</span>		
+		</li>
+	
+	
+		<li>
+			<label for="songname">Type the name for your song : </label>
+			<span class="fieldbox">
+				<input name="songname" class="songname" type="text" />
+			</span>		
+		</li>
+		
+		<li>
+		</li>
+		</ul>
+	</form> -->
+</template>

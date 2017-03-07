@@ -1,0 +1,27 @@
+<template name="userProfile">
+	<div class="groupMessage">
+		<h2>{{ username }} : Profile</h2>
+		<ul>
+			{{#each usersList}}
+			
+				{{ > eachUser}}
+			
+			{{/each}}
+		</ul>
+		<h4>Your messages are shown below : </h4>
+
+			{{#each messages}}
+				<p>{{ formatDate timestamp }} : {{ text }}</p>
+			{{else}}
+				<p> You don't have any message yet </p>
+			{{/each}}
+	</div>	
+</template>
+
+<template name="eachUser">
+	{{#if notItSelf username}}
+		<li>
+		{{username}} <button class="block">Block User</button>
+		</li>
+	{{/if}}
+</template>

@@ -1,0 +1,7 @@
+{
+	"raag" : "majh",
+	"taal" : "Ek Taal",
+	"notation" : ["Re", "Pa", "ma", "Pa", "Ga", "ma", "Re", "ga", "Sa", "Re", ".Ni", "Sa", "Sa.", "Sa.", "ni0.52", "Dha0.48", "Pa", "ma0.54", "Ga0.45", "ma", "Re", "Pa", "ga0.53", "Re0.46", "Sa0.51", "Re0.48", ".Ni", "Sa", "ma", "Pa", "Ni", "Sa.", "Re.", "Re.", "Sa.0.51", "Ni0.49", "Sa.", "Sa.", "ni0.48", "Dha0.52", "Pa", "Pa", "Pa", "ni", "Dha", "Pa", "ma0.52", "Ga0.48", "ma", "Re", "Pa", "ga0.50", "Re0.50", "Sa0.50", "Re0.50", ".Ni", "Sa"],
+	"language" : "english",
+	"tempo" : 120
+}
